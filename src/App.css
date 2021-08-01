@@ -1,0 +1,35 @@
+.App {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#header {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.cryptoList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.cryptoList div {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px black;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.cryptoList div:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 8px black;
+
+}
